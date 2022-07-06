@@ -1,0 +1,30 @@
+img {
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+
+}
+
+div {
+	height: 400px;
+	max-width: 700px;
+	padding:20px;
+	border: 2px solid black;
+	margin: 20px;
+	flex-wrap: wrap;
+	max-height: 700px;
+
+
+}
+
+li {
+	float: right;
+	padding: 0 50px 0 0;
+
+}
+
+p {
+	padding: 2px;
+	margin: 2px;
+}
+
