@@ -3,37 +3,34 @@
 <html lang="br-pt">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 
-	<title>Despesas Pessoais</title>
+    <title>Despesas Pessoais</title>
 </head>
-<body>
-	<h1> Despesas Pessoais</h1>
 
-	<div >
-		<ul>
-			<img src="gastos.png">
-			<li>				
-				<h2> Proventos<h2> <input button placeholder="Salário R$"> 
-				<h2> Despesas </h2>
-				<p><input type="text"  placeholder="Luz R$">	</p>		
-				<p><input type="text"  placeholder="Agua R$"></p>
-				<p><input type="text"  placeholder="Operadora Cel R$"></p>
-				<p><input type="text"  placeholder="Condomínio R$"></p>
-				<p><input type="text"  placeholder="Manutenção Veiculo R$"></p>
-				<p><input type="text"  placeholder="Combustível R$"></p>
-				<p><input type="text"  placeholder="Supermercado R$"></p>
-				<p><input type="text"  placeholder="Farmácia R$"></p>				
-				<p><input type="text"  placeholder="Outras Despesas R$"></p>
-				<h2> Totalizador<h2> <input button placeholder=" R$"> 
-				<input type="submit" name="enviar" value="Enviar">   
-				 
-			</li>
-		</ul>
-	</div>
+
+    <h1>Calcular Despesas</h1>
+
+<body>
+    <!-- Recriei parte da sua estrutura, vc não precisa mexer muito nela
+    basta vc definir um nome de classe para todos os seus inputs
+    todos com o mesmo nome-->
+    <input type="text" class="despesas" placeholder="Luz R$"> <br>
+    <input type="text" class="despesas" placeholder="Agua R$"> <br>
+    <input type="text" class="despesas" placeholder="Telefone R$"> <br>
+    <input type="text" class="despesas" placeholder="Condominio R$"> <br>
+
+    <!-- Usei um botão para chamar a função que vai realizar os cálculos-->
+    <button onclick="calculaDespesas()">Total</button>
+
+    <!--Usei uma tag h2 pra receber o resultado você pode usar quaquer estrutura-->
+    <h2 id="total">Valor total das despesas</h2>   
+
+    <script src="principal.js"></script>
 
 </body>
+
 </html>
