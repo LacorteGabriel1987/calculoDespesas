@@ -3,9 +3,7 @@
 	
 }
 
-body{
-	padding-left:700px;
-}
+
 
 img {
 	width: 150px;
@@ -36,10 +34,11 @@ div{
 	max-width: 250px;
 	padding:20px;
 	border: 1px solid black;
-	margin: 10px;
 	border-radius: 0px 10px 10px 0px;
 	box-shadow: 4px 5px 5px black;
 	background-color: #DCD7C9;
+	width: 940px;
+	margin: 80px auto;
 }
 
 .son {
@@ -69,6 +68,14 @@ button hover:{
 	border: 1px solid  black;
 	margin: 5px;
 	max-width: 160px;
-	margin-left: 35px;
+	margin-left: 25px;
 	padding: 10px;
+}
+
+@media screen and (max-width: 480px){
+
+.container{
+	text-align: center;
+}
+
 }
