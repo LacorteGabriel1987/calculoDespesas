@@ -6,7 +6,7 @@
       // o valor deles à varialvel "total", antes faço um typecasting nos 
       // dados de entrada. OBS: Pode causar um erro caso a entrada não possa ser 
        //convertida.
-       for (var x = 0; x < 4; x++){
+       for (var x = 0; x < 11; x++){
        total += parseFloat(despesas[x].value)|| 0
      }
 

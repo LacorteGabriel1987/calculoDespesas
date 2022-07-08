@@ -11,23 +11,45 @@
     <title>Despesas Pessoais</title>
 </head>
 
+<body class="father">
 
-    <h1>Calcular Despesas</h1>
+    <div class="container">
 
-<body>
-    <!-- Recriei parte da sua estrutura, vc não precisa mexer muito nela
-    basta vc definir um nome de classe para todos os seus inputs
-    todos com o mesmo nome-->
-    <input type="text" class="despesas" placeholder="Luz R$"> <br>
-    <input type="text" class="despesas" placeholder="Agua R$"> <br>
-    <input type="text" class="despesas" placeholder="Telefone R$"> <br>
-    <input type="text" class="despesas" placeholder="Condominio R$"> <br>
+        <div class="photo">
+            <img src="gastos.png">
+        </div>
 
-    <!-- Usei um botão para chamar a função que vai realizar os cálculos-->
-    <button onclick="calculaDespesas()">Total</button>
+        <!-- Recriei parte da sua estrutura, vc não precisa mexer muito nela
+        basta vc definir um nome de classe para todos os seus inputs
+        todos com o mesmo nome-->
+        <div>
+                <div class="subtitle">
+                    <h1>Calcular Despesas</h1>
+                </div>
 
-    <!--Usei uma tag h2 pra receber o resultado você pode usar quaquer estrutura-->
-    <h2 id="total">Valor total das despesas</h2>   
+                <div class="son">
+                    <input type="text" class="despesas" placeholder="Luz R$"> <br>
+                    <input type="text" class="despesas" placeholder="Agua R$"> <br>
+                    <input type="text" class="despesas" placeholder="Telefone R$"> <br>
+                    <input type="text" class="despesas" placeholder="Condominio R$"> <br>
+                    <input type="text" class="despesas" placeholder="Padaria R$"> <br>
+                    <input type="text" class="despesas" placeholder="Veículo R$"> <br>
+                    <input type="text" class="despesas" placeholder="Combustível R$"> <br>
+                    <input type="text" class="despesas" placeholder="Sacolão R$"> <br>
+                    <input type="text" class="despesas" placeholder="Manut.Veículo R$"> <br>
+                    <input type="text" class="despesas" placeholder="Caridade R$"> <br>
+                    <input type="text" class="despesas" placeholder="Outras despesas R$"> <br>
+
+
+                    
+                    <!-- Usei um botão para chamar a função que vai realizar os cálculos-->
+                    <button onclick="calculaDespesas()">Total</button>
+
+                    <!--Usei uma tag h2 pra receber o resultado você pode usar quaquer estrutura-->
+                    <h2 id="total">Total das despesas</h2>
+                </div>
+        </div> 
+    </div>
 
     <script src="principal.js"></script>
 

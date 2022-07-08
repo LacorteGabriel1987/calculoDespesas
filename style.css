@@ -1,30 +1,74 @@
+* {
+	background: #F0EBE3;
+	
+}
+
+body{
+	padding-left:700px;
+}
+
 img {
-	width: 300px;
-	height: 300px;
+	width: 150px;
+	height: 100px;
 	padding: 10px;
+	padding-left: 30px;
 
+ }
+
+.photo {
+	border: 1px solid black;
+	margin-bottom: 40px;
+	padding: 10px;
 }
 
-div {
-	height: 400px;
-	max-width: 700px;
+div{
+	border-radius: 0px 10px 10px 0px;
+	padding: 5px;
+}
+
+.subtitle {
+	font-size: 20px;
+	margin: 10px;
+	text-align: center;
+
+}
+.container{
+	max-width: 250px;
 	padding:20px;
-	border: 2px solid black;
-	margin: 20px;
-	flex-wrap: wrap;
-	max-height: 700px;
-
-
+	border: 1px solid black;
+	margin: 10px;
+	border-radius: 0px 10px 10px 0px;
+	box-shadow: 4px 5px 5px black;
+	background-color: #DCD7C9;
 }
 
-li {
-	float: right;
-	padding: 0 50px 0 0;
-
+.son {
+	max-height: 900px;
+	text-align: center;
 }
 
-p {
-	padding: 2px;
+.despesas {
 	margin: 2px;
+	border: 1px solid  black;
+
+
 }
 
+button {
+	background-color: #D9F8C4;
+	margin-top: 10px;
+}
+
+button hover:{
+	text-decoration: underline;
+	border-color: #C78C19;
+}
+
+#total {
+
+	border: 1px solid  black;
+	margin: 5px;
+	max-width: 160px;
+	margin-left: 35px;
+	padding: 10px;
+}
